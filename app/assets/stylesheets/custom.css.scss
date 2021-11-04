@@ -1,0 +1,45 @@
+@import 'bootstrap/dist/css/bootstrap';
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+} 
+
+#home-container {
+  margin-top: 25px;
+}
+
+.jumbotron {
+  background-image: asset-url('patrick.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+html,
+body {
+  height: 95%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background: lightgrey;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+body {
+  background: lightgrey;
+  background: linear-gradient(to right, lightgrey, lightgrey);
+}
+
+
+
